@@ -1,0 +1,146 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+/* nav bar */
+* {
+    resize: none;
+    scroll-behavior: smooth;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Creepster', cursive;
+  font-size: 22px;
+}
+
+nav {
+    background: #010101;
+    height: 50px
+}
+
+nav li {
+    float: left
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: rgb(255, 175, 26);
+    line-height: 50px;
+    font-size: 1.15em;
+    padding: 23px;
+    text-align: center
+}
+
+.login-res {
+    display: none
+}
+
+.nav-hover {
+    position: relative;
+    z-index: 1
+}
+
+.nav-hover::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    background-color: transparent;
+    height: 1px;
+    bottom: 5px;
+    margin-left: -35px;
+    transition: all .5s;
+    z-index: -1;
+    padding: 10px;
+    margin-left: -80px
+}
+
+.nav-hover:hover:after {
+    height: 30px;
+    background-color: rgba(255, 255, 255, .1);
+    text-align: center
+}
+
+.logo {
+    width: 100%;
+    background-color: #000;
+    height: 70px
+}
+
+.logo img {
+    width: 54px;
+    height: 60px;
+    position: relative;
+    left: 30px;
+    top: 7px
+}
+
+.a {
+    color: #fff;
+    margin-left: 40px;
+    position: relative;
+    top: -17px;
+    font-size: 15px;
+    text-shadow: 0 0 10px #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 60px;
+    letter-spacing: 3px;
+    box-shadow: 0 0 20px #8E2DE2, inset 0 0 20px #8E2DE2
+}
+
+.logo h1:before {
+    content:'{'
+}
+
+.logo h1:after {
+    content: '}'
+}
+
+.share {
+    display: none
+}
+
+/* nav bar finish */
+
+/* hero image and scroll bar */
+.hero {
+    width: 100%;
+    height: 555px;
+    margin-bottom: 5px
+}
+body {
+  Background-color: rgb(75, 55, 85);
+}
+.title {
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: rgb(255, 178, 28);
+}
+.body {
+ Font:  2em Impact, Charcoal, sans-serif;
+ Color: rgb(255, 175, 26); 
+}
+.HauntedHollow {
+ Color: rgb(255, 175, 26); 
+  Font:  2em Impact, Charcoal, sans-serif;
+}
+.13thRealm {
+ Color: rgb(255, 175, 26); 
+  Font:  2em Impact, Charcoal, sans-serif;
+}
+
+.title {
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: rgb(255, 178, 28);
+ 
+}
+.hollow{
+  font-family: 'Creepster', cursive;
+  font-size: 60px;
+  color: rgb(255, 178, 28);
+}
+.body
