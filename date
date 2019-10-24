@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+
+  <!--  Styles  -->
+  
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+<body>
+ <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
+  
+<link>
+</i>
+</a>
+</div>
+<nav>
+<ul>
+<li><a href=index.html class=nav-hover>Home</a></li>  
+<li><a href=index.html class=nav-hover>13th Realm</a></li>
+<li><a href=index.html class=nav-hover>Haunted Hollow</a></li>
+<li><a href=index.html class=nav-hover>Todd Family Fun Farm </a></li>
+  <li><a href=index.html class=nav-hover>Medinia Haunted Farm</a></li>
+  <li><a href=index.html class=nav-hover>Zombie Paintball</a></li>
+   <li><a href=index.html class=nav-hover>Derailed Haunted House</a></li>
+<a href=login.html  title=Login class=login style=float:right;margin-right:30px;color:black;font-size:15px;margin-top:20px><i style=color:white;position:relative;top:-60px class="fa fa-user"></i></a>
+</ul>
+</nav>
+<head>
+  
